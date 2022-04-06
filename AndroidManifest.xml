@@ -25,6 +25,7 @@
          android:targetSdkVersion="23"/>
 
     <application android:label="@string/ime_name"
+        android:icon="@mipmap/ic_launcher"
         android:directBootAware="true" >
         <service android:name="com.android.inputmethod.leanback.service.LeanbackImeService"
              android:label="@string/ime_service_name"
